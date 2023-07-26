@@ -1,24 +1,3 @@
-// import 'package:get/get.dart';
-// import 'package:to_do_app/models/todo.dart';
-
-// class TodoController extends GetxController {
-//   // Observe the list of todos
-//   RxList<Todo> todos = <Todo>[].obs;
-
-//   // Add a new todo
-//   void addTodo(String taskName) {
-//     todos.add(Todo(
-//       id: todos.length + 1,
-//       taskName: taskName,
-//       completed: false,
-//     ));
-//   }
-
-//   // Delete a todo
-//   void deleteTodoById(int id) {
-//     todos.removeWhere((todo) => todo.id == id);
-//   }
-// }
 
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
